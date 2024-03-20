@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@300;400;500;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;       /*inico da pág inicial*/
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://www.crushpixel.com/big-static14/preview4/hightech-circuit-board-background-technology-1295909.jpg');
+  background-size: cover; /* Para cobrir toda a área do corpo */
+  background-position: center; /* Para centralizar a imagem */
+  font-family: Arial, sans-serif; /* Estilo da fonte */
+}
+
+/* Estilos da barra de navegação */
+.navbar .container {
+  display: flex;
+  align-items: center;
+  max-width: 12000px;
+  margin: 3px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.logo {
+  width: 100px;  /*largura*/
+  height: 100px; /*comprimento*/
+  
+}
+
+
+
+.navbar .container2 {
+  display: flex;
+  align-items: center;
+  max-width: 12000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.navbar {
+  background: linear-gradient(to right, #000000a9 , #0a4d01 );
+  color: #fff;
+  padding: 5px;
+  
+}
+
+
+
+.navbar #botao-home {
+  display: inline-block; /* Faz o botão ser exibido como um elemento em linha */
+  color: white; /* Cor do texto */
+  text-decoration: none; /* Remove o sublinhado padrão */
+  font-size: 30px; /* Tamanho da fonte */
+  padding: 20px; /* Adiciona espaço interno (padding) ao botão */
+}
+
+.navbar #botao-eps {
+  display: inline-block; /* Faz o botão ser exibido como um elemento em linha */
+  color: white; /* Cor do texto */
+  text-decoration: none; /* Remove o sublinhado padrão */
+  font-size: 30px; /* Tamanho da fonte */
+  padding: 100px; /* Adiciona espaço interno (padding) ao botão */
+}
+ 
+.fundo {
+  width: 1500px;  /*largura*/
+  height: 460px; /*comprimento*/
+  margin: 2px;
+  padding: 0;
+}
+
+/*final da pág inicial*/
+
+
+
+/* inicio da pág de eps*/
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@300;400;500;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 3px;
+  padding: 1px;
+  background-image: url('https://www.crushpixel.com/big-static14/preview4/hightech-circuit-board-background-technology-1295909.jpg');
+  background-size: cover; /* Para cobrir toda a área do corpo */
+  background-position: center; /* Para centralizar a imagem */
+  font-family: Arial, sans-serif; /* Estilo da fonte */
+}
+
+
+.logo2 {
+  width: 100px;  /*largura*/
+  height: 100px; /*comprimento*/
+}
+
+.navbar2 {
+  background: linear-gradient(to right, #000000a9 , #0a4d01 );
+  color: #fff;
+  padding: 10px;
+  
+}
+
+.navbar #botao-home2 {
+  display: inline-block; /* Faz o botão ser exibido como um elemento em linha */
+  color: white; /* Cor do texto */
+  text-decoration: none; /* Remove o sublinhado padrão */
+  font-size: 30px; /* Tamanho da fonte */
+  padding: 20px; /* Adiciona espaço interno (padding) ao botão */
+}
+
+.navbar #botao-eps2 {
+  display: inline-block; /* Faz o botão ser exibido como um elemento em linha */
+  color: white; /* Cor do texto */
+  text-decoration: none; /* Remove o sublinhado padrão */
+  font-size: 30px; /* Tamanho da fonte */
+  padding: 100px; /* Adiciona espaço interno (padding) ao botão */
+}
+
+.h1{
+  font-size: 50px;
+  color: #ffffff;
+  font-family: Arial, sans-serif; /* Estilo da fonte */
+  padding: 50px;
+  text-align: center; 
+}
+
+.container {
+  display: flex;
+}
+.image-container {
+  flex: 1;
+  margin: 100px;
+}
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.ep1 {
+  width: 300px;  /*largura*/
+  height: 350px; /*comprimento*/
+  margin: 3px;
+  padding: 10px;
+}
+
+.ep2 {
+  width: 300px;  /*largura*/
+  height: 350px; /*comprimento*/
+  margin: 3px;
+  padding: 10px;
+}
+
+.ep3 {
+  width: 300px;  /*largura*/
+  height: 350px; /*comprimento*/
+  margin: 3px;
+  padding: 10px;
+}
+
+.ep4 {
+  width: 300px;  /*largura*/
+  height: 350px; /*comprimento*/
+  margin: 3px;
+  padding: 10px;
+}
+
+.ep5 {
+  width: 300px;  /*largura*/
+  height: 350px; /*comprimento*/
+  margin: 3px;
+  padding: 10px;
+}
+
+/*final pág de eps*/
+
